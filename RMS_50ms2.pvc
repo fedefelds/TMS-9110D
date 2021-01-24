@@ -1,14 +1,14 @@
 Route Points,Route Name
-    10,RMS_50m/s2
-    Test Sensor Model
-    ADXL-345
+10,RMS_50m/s2
+Test Sensor Model
+ADXL-345
 
 
 
 
 
 
-    Route Point,Frequency,Frequency Unit,Amplitude,Amplitude Unit,Lower Tolerance,Upper Tolerance,Sensor Type
+Route Point,Frequency,Frequency Unit,Amplitude,Amplitude Unit,Lower Tolerance,Upper Tolerance,Sensor Type
 0,1,Hertz,5000,m/s2 RMS,0,0,Voltage
 1,1.259,Hertz,5000,m/s2 RMS,0,0,Voltage
 2,1.995,Hertz,5000,m/s2 RMS,0,0,Voltage
@@ -19,4 +19,3 @@ Route Points,Route Name
 7,63.1,Hertz,5000,m/s2 RMS,0,0,Voltage
 8,79.43,Hertz,5000,m/s2 RMS,0,0,Voltage
 9,125.9,Hertz,5000,m/s2 RMS,0,0,Voltage  
-    
