@@ -42,22 +42,17 @@ for amplitud in amp_values_iso:
     freq_values = freq_values_iso
     amp_values[0] = amplitud
 
-    
-
-
-
-    # retocar aca
+    #Para el valor de amplitud elegido, parseo el string nuevo
     string = preamble_parse(freq_values_iso,amp_values)
     for amp in amp_values:
         for freq in freq_values:
             string += '\n'
             string += string_parse(freq,amp,Route_Point)
             Route_Point += 1
-    # agrego \n
-    string += """  
-"""
-    # print(string)
+    # agrego \n final
+    string += '\n'
 
+    # Escribo el archivo .pvc
     filename = 'RMS_'+str(amp_values[0])+'ms2.pvc'
     with open(filename, "w", newline='\r\n') as text_file:
         text_file.write(string)
