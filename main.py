@@ -5,14 +5,9 @@ def string_parse(Frequency, Amplitude, Route_Point):
     Lower_Tolerance = 0
     Upper_Tolerance = 0
     Sensor_Type = 'Voltage'
-    return ('{},{},{},{},{},{},{},{}'.format(Route_Point,
-                                                Frequency,
-                                                Frequency_Unit,
-                                                int(Amplitude*100),
-                                                Amplitude_Unit,
-                                                Lower_Tolerance,
-                                                Upper_Tolerance,
-                                                Sensor_Type))
+    return (f'{Route_Point},{Frequency},{Frequency_Unit},{int(Amplitude*100)},'
+            f'{Amplitude_Unit},{Lower_Tolerance},{Upper_Tolerance},'
+            f'{Sensor_Type}')
 
 def preamble_parse(freq_values,amp_values):
     preamble = """Route Points,Route Name
