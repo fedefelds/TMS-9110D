@@ -26,16 +26,16 @@ def string_parse(Frequency, Amplitude, Route_Point):
 
 def preamble_parse(freq_values,amp_values):
     preamble = """Route Points,Route Name
-    xxx,yyy
-    Test Sensor Model
-    ADXL-345
+xxx,yyy
+Test Sensor Model
+ADXL-345
 
 
 
 
 
 
-    Route Point,Frequency,Frequency Unit,Amplitude,Amplitude Unit,Lower Tolerance,Upper Tolerance,Sensor Type"""
+Route Point,Frequency,Frequency Unit,Amplitude,Amplitude Unit,Lower Tolerance,Upper Tolerance,Sensor Type"""
     #Defino cuantos Route Points hay a partir de freq_values
     preamble = re.sub("xxx", str(len(freq_values)), preamble)
 
@@ -70,7 +70,7 @@ for amplitud in amp_values_iso:
             Route_Point += 1
     # agrego \n
     string += """  
-    """
+"""
     # print(string)
 
     filename = 'RMS_'+str(amp_values[0])+'ms2.pvc'
