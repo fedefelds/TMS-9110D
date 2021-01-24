@@ -64,5 +64,5 @@ for amplitud in amp_values_iso:
     # print(string)
 
     filename = 'RMS_'+str(amp_values[0])+'ms2.pvc'
-    with open(filename, "w") as text_file:
+    with open(filename, "w", newline='\r\n') as text_file:
         text_file.write(string)
