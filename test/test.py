@@ -14,7 +14,7 @@ md5_original = 1
 md5_bajo_prueba = 2
 
 # calcular md5 de ambos archivos
-md5_original = md5_check('patron.txt')
+md5_original = md5_check('test/patron.txt')
 md5_bajo_prueba = md5_check('RMS_0.1ms2.pvc')
 
 #comparar
