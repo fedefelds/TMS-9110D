@@ -1,0 +1,31 @@
+Route Points,Route Name
+20,RMS_3m/s2
+Test Sensor Model
+ADXL-345
+
+
+
+
+
+
+Route Point,Frequency,Frequency Unit,Amplitude,Amplitude Unit,Lower Tolerance,Upper Tolerance,Sensor Type
+0,1,Hertz,300,m/s2 RMS,0,0,Voltage
+1,1.26,Hertz,300,m/s2 RMS,0,0,Voltage
+2,1.58,Hertz,300,m/s2 RMS,0,0,Voltage
+3,2.0,Hertz,300,m/s2 RMS,0,0,Voltage
+4,2.51,Hertz,300,m/s2 RMS,0,0,Voltage
+5,3.16,Hertz,300,m/s2 RMS,0,0,Voltage
+6,3.98,Hertz,300,m/s2 RMS,0,0,Voltage
+7,5.01,Hertz,300,m/s2 RMS,0,0,Voltage
+8,6.31,Hertz,300,m/s2 RMS,0,0,Voltage
+9,7.94,Hertz,300,m/s2 RMS,0,0,Voltage
+10,10.0,Hertz,300,m/s2 RMS,0,0,Voltage
+11,12.59,Hertz,300,m/s2 RMS,0,0,Voltage
+12,15.85,Hertz,300,m/s2 RMS,0,0,Voltage
+13,19.95,Hertz,300,m/s2 RMS,0,0,Voltage
+14,25.12,Hertz,300,m/s2 RMS,0,0,Voltage
+15,31.62,Hertz,300,m/s2 RMS,0,0,Voltage
+16,39.81,Hertz,300,m/s2 RMS,0,0,Voltage
+17,50.12,Hertz,300,m/s2 RMS,0,0,Voltage
+18,63.1,Hertz,300,m/s2 RMS,0,0,Voltage
+19,79.43,Hertz,300,m/s2 RMS,0,0,Voltage  
