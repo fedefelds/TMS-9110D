@@ -25,7 +25,7 @@ Route Point,Frequency,Frequency Unit,Amplitude,Amplitude Unit,Lower Tolerance,Up
     preamble = re.sub("xxx", str(len(freq_values)), preamble)
 
     #Defino el nombre de la rutina a partir del valor rms elegido
-    preamble = re.sub("yyy", 'RMS_'+str(amp_values[0])+"m/s2",preamble)
+    preamble = re.sub("yyy", 'RMS_'+str(amp_values[0]),preamble)
     
     return preamble
     
@@ -49,7 +49,7 @@ def pvc_parse(amp_values_iso,freq_values_iso):
             string += '  \n'
 
             # Escribo el archivo .pvc
-            filename = 'RMS_'+str(amp_values[0])+'ms2.pvc'
+            filename = 'RMS_'+str(amp_values[0])+'.pvc'
             with open(filename, "w", newline='\r\n') as text_file:
                 text_file.write(string)    
     else:
