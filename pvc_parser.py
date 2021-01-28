@@ -46,7 +46,7 @@ def pvc_parse(amp_values_iso,freq_values_iso):
                     string += string_parse(freq,amp,Route_Point)
                     Route_Point += 1
             # agrego \n final
-            string += '  \n'
+            string += '\n'
 
             # Escribo el archivo .pvc
             filename = 'RMS_'+str(amp_values[0])+'.pvc'
