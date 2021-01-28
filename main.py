@@ -1,4 +1,4 @@
-import parser
+import pvc_parser
 
 #Estos son los valores (redondeados) de frecuencia y amplitud sacados de la ISO-8041 para VSCE
 freq_values_vsce = [1,1.259,1.995,3.981,7.943,15.85,31.62,63.10,79.43,125.9]#REDONDEAR
@@ -16,10 +16,10 @@ amp_values_custom = [1,3,5,10]
 mode = 'vsce'
 
 if mode == 'vsce':
-    parser.pvc_parse(amp_values_vsce,freq_values_vsce)
+    pvc_parser.pvc_parse(amp_values_vsce,freq_values_vsce)
 elif mode == 'vsmb':
-    parser.pvc_parse(amp_values_vsmb,freq_values_vsmb)
+    pvc_parser.pvc_parse(amp_values_vsmb,freq_values_vsmb)
 elif mode == 'custom1':
-    parser.pvc_parse(amp_values_custom,freq_values_custom1)
+    pvc_parser.pvc_parse(amp_values_custom,freq_values_custom1)
 elif mode == 'custom2':
-    parser.pvc_parse(amp_values_custom,freq_values_custom2)
+    pvc_parser.pvc_parse(amp_values_custom,freq_values_custom2)
